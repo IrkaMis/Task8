@@ -1,5 +1,6 @@
 body {
-  background-color: #c8ffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(55%, #000065), color-stop(55%, #000065), color-stop(70%, black), to(black));
+  background-image: linear-gradient(#000065 55%, #000065 55%, black 70%, black);
   height: 100vh;
 }
 
@@ -10,7 +11,7 @@ body {
 
 .ball {
   border-radius: 50%;
-  background-image: linear-gradient(135deg, #64faff, #0000c8);
+  background-image: radial-gradient(closest-side at 30% 30%, #ffec6d, darkorange);
   position: absolute;
   top: 55%;
   -webkit-transform: translate(-50%, -50%);
